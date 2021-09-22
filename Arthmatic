@@ -1,0 +1,22 @@
+package array;
+
+public class Array1 {
+
+	// dataType[] VariableName;          //We can declare array creation in 3 ways
+		// dataType []VariableName;
+		// dataType VariableName[];
+
+		public static void main(String[] args) {
+
+			String s[] = new String[5];
+			s[0] = "Rahul";
+			s[1] = "Rohit";
+			s[2] = "Virat";
+			s[3] = "Rishabh";
+			s[4] = "Hardik";
+			//s[5] = "Ajinkya";
+			System.out.println(s[1]);
+			int d = s.length;
+			System.out.println("Length of Array " + d);
+		}
+}
